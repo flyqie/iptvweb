@@ -1,0 +1,16 @@
+server_addr = ":8080"
+
+# secret key for stream anti-hotlinking, empty = disabled
+# secret_key = "my-secret-key"
+
+[m3u]
+# M3U 播放列表地址
+url = "http://example.com/playlist.m3u"
+
+# 自动更新间隔（分钟），0 或异常值代表关闭
+auto_update = 1440
+
+# 频道类型判断方式
+#   probe = 播放前请求上游响应头判断（默认，准确，首次播放多一次请求）
+#   url   = 仅根据 URL 后缀判断（快，但可能误判）
+detect_mode = "probe"

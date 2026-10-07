@@ -1,0 +1,8 @@
+config.toml
+iptvweb
+iptvweb.exe
+iptvweb-linux
+iptvweb-darwin
+*.m3u
+*.m3u8
+.claude/settings.local.json
